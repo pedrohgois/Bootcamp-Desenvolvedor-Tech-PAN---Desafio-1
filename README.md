@@ -21,5 +21,5 @@ Visualmente decidi seguir algumas características da identidade de marca do Ban
 
 ![simulacao](https://user-images.githubusercontent.com/77770841/135280866-4f402d7b-9a0b-4314-bccd-b1c50899395b.gif)
 
-<a href="ttps://optimistic-austin-9e1dd7.netlify.app/">Acessar Aplicação</a>
+<a href="https://optimistic-austin-9e1dd7.netlify.app/">Acessar Aplicação</a>
 
