@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+}
+
+p {
+    margin: 0
+}
+
+.topline {
+    background-color: #039BE5;
+    height: 2px;
+    width: 100%;
+}
+
+main {
+    padding: 15px;
+    background-color: rgb(244, 244, 244);
+    max-width: 600px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pangray {
+    width: 9px;
+    height: 9px;
+    background-color: #636363;
+}
+
+h1,
+h2 {
+    color: #039BE5;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 9px;
+    line-height: 0.9;
+}
+
+.button {
+    text-align: right;
+    margin-right: 30%;
+}
+
+.titulosdeEntradas {
+    margin-right: 15px;
+}
+
+.dados {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+@media (max-width: 485px) {
+    .dados {
+        display: grid;
+        grid-template-columns: 40% 45% 15%;
+    }
+}
+
+.campodeEntradaL {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 2.0;
+}
+
+input {
+    text-align: end;
+    color: rgb(86, 86, 86);
+    font-size: 19px;
+    width: 98%;
+    height: 30px;
+    outline: 0;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #039BE5;
+    border: none;
+    border-radius: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: #008cd1;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+.resultTitle {
+    white-space: nowrap;
+    font-size: auto;
+    padding: 10px;
+    display: block;
+    width: 9;
+}
+
+@media (max-width: 485px) {
+    .resultTitle {
+        font-size: 11px;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    color: #008cd1;
+    font-size: larger;
+}
+
+th,
+td {
+    font-size: 14px;
+    width: 25%;
+    padding-left: 8px;
+    text-align: center;
+}

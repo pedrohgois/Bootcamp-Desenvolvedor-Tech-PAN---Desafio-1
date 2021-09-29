@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="topline"></div>
+    <main>
+        <div class="pangray"></div>
+        <h1>Simulação de financiamento:</h1>
+
+        <section class="dados">
+
+            <div class="titulosdeEntradas">
+                <label class="campodeEntradaL" for="valor">Valor(R$):</label>
+                <label class="campodeEntradaL" for="prazo">Prazo (anos):</label>
+                <label class="campodeEntradaL" for="juros">Juros ao ano(R$):</label>
+            </div>
+
+            <div class="entradas">
+                <input id="valor" type="number" value="200000.00">
+                <input id="prazo" type="number" value="20">
+                <input id="juros" type="number" value="0.08">
+                <button onclick="calcular()">Simular</button>
+            </div>
+        </section>
+
+
+        <div class="pangray"></div>
+        <h2>Resultado</h2>
+
+
+        <section class="result">
+            <label class="resultTitle">
+        <p>Prazo (meses):</p><input readonly id="meses" type="number">
+      </label>
+            <label class="resultTitle">
+        <p>Juros ao mês (R$):</p><input readonly id="jurosam" type="number">
+      </label>
+            <label class="resultTitle">
+        <p>Juros acumulados (R$):</p><input readonly id="total" type="number">
+      </label>
+        </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Prestação</th>
+                    <th>Amortização</th>
+                    <th>Juros</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="calcular.js"></script>
+</body>
+
+</html>
