@@ -1,4 +1,4 @@
-# Bootcamp Desenvolvedor Tech PAN Desafio-1
+# Bootcamp Desenvolvedor Tech PAN 
 
 O objetivo do módulo foi construir utilizando HTML, CSS e JavaScript, uma página para simulação de um
 financiamento com base nos dados fornecidos no enunciado da atividade, exibindo os valores das primeiras prestações,
