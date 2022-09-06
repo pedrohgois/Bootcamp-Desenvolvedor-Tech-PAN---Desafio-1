@@ -1,7 +1,7 @@
 # Bootcamp Desenvolvedor Tech PAN Desafio-1
 
 O objetivo do módulo foi construir utilizando HTML, CSS e JavaScript, uma página para simulação de um
-financiamento com base nos dados fornecidos no enunciado da atividade, exibindo o valor das primeiras prestações,
+financiamento com base nos dados fornecidos no enunciado da atividade, exibindo os valores das primeiras prestações,
 de acordo com o Sistema de Amortizações Constantes (SAC), com base no conteúdo estudado no primeiro módulo do bootcamp.
 
 Visualmente decidi seguir algumas características da identidade de marca do Banco Pan :
